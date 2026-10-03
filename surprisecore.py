@@ -18,7 +18,7 @@ def main():
     # Fast alert and scrolling warning loop that keeps going until closed
     try:
         while True:
-            sys.stdout.write(RED + "\a[CRITICAL] SYSTEM COMPROMISED - MALWARE DETECTED\n" + RESET)
+            sys.stdout.write(RED + "\a[CRITICAL] SYSTEM COMPROMISED - MALWARE DETECTED!\n" + RESET)
             sys.stdout.flush()
             time.sleep(0.08)
     except KeyboardInterrupt:
